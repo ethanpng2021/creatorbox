@@ -9,7 +9,7 @@ This is how I do it. To begin, you have to determine the boundaries of the area 
 
 >Line 15: G = ox.graph_from_bbox(north, south, east, west, network_type=’drive’)
 
-After that, run the file *fullrun.py* in IDLE (I use Python Version 3.7.5). It will display an animated plot like this below and you will see the vehicles (represented by dots) running around:
+After that, run the file *fullrun.py* in IDLE (I use Python Version 3.7.5). It will display an animated plot where you will see the vehicles (represented by dots) running around:
 \
 \
 If you want to have a copy of the generated output for machine learning, uncomment this line:
