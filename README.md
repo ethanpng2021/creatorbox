@@ -5,7 +5,7 @@ When you are doing research in urban mobility such as traffic congestion, most p
 However, there are situations when you only need a quickie Python script for let’s say a paper you are working on without spending weeks mastering the two software and their APIs.
 \
 \
-This is how I do it. To begin, you have to determine the boundaries of the area you want to simulate. Go to the site https://www.openstreetmap.org/ and type in your district, town, or city to display the map. Next, click **Export** on the top bar. You will see a box containing 4 variables. They are the GPS coordinates representing the **North**, **South**, **East**, and **West** boundaries. Try to zoom in and out the map using your mouse wheel to choose the region of your choice. Copy down the 4 variables when you have decided on the area. Download my Python script *fullrun.py* and insert the 4 GPS values into the respective positions:
+This is how I do it. To begin, you have to determine the boundaries of the area you want to simulate. Go to the site https://www.openstreetmap.org/ and type in your district, town, or city to display the map. Next, click **Export** on the top bar. You will see a box containing 4 variables. They are the GPS coordinates representing the **North**, **South**, **East**, and **West** boundaries. Try to zoom in and out the map using your mouse wheel to choose the region of your choice. Copy down the 4 variables when you have decided on the area. Download my Python script *fullrun.py* and insert the 4 GPS values into the respective positions of the following lines:
 
 >Line 15: G = ox.graph_from_bbox(1.3763 __(north)__, 1.3007 __(south)__, 103.6492 __(east)__, 103.7840 __(west)__, network_type=’drive’)
 
