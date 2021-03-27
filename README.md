@@ -16,6 +16,12 @@ If you want to have a copy of the generated output for machine learning, uncomme
 
 >Line 139: #df.to_csv(“output.csv”)
 
+![Output Excel file](https://i.imgur.com/cJ2Gywq.jpg)
+
+
 If you want to increase the number of vehicles, change the number on this line:
 
 >Line 23: vehnumber = 10
+
+Output display: https://i.imgur.com/riH10a7.gifv
+
