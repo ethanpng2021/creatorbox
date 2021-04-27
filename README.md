@@ -23,7 +23,7 @@ This is how I do it. To begin, you have to determine the boundaries of the area 
 
 >Line 161: gdf = ox.geometries_from_bbox(1.3763, 1.3007, 103.6492, 103.7840, tags={"building": True})
 
-After that, run *fullrun.py* in IDLE (I use Python Version 3.7.5). It will display an animated plot where you will see vehicles (represented by dots) running around:
+After that, run *fullrun.py* in IDLE (I use Python Version 3.7.5). It will display an animated plot where you will see vehicles (represented by dots) running around.
 \
 \
 If you want to have a copy of the generated output for machine learning, uncomment this line:
